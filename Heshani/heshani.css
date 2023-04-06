@@ -2,12 +2,9 @@
     to {
       background-position: 200% center;
     }}
+
 h1{text-align: center;
     position: relative;
-    padding-left: 25%;
-    padding-top: 15%;
-    top:-4%;
-	left:5%;
 	font-size:100px;
 	letter-spacing:5px;
     text-transform: uppercase;
@@ -26,7 +23,10 @@ h1{text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 4s linear infinite;
-    display: inline-block;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    margin-top: 45vh;
     text-shadow:5px #000000;
     font-weight:bold}
 *{
