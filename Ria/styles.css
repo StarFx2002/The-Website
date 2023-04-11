@@ -1,0 +1,39 @@
+body {
+  background-color: #a8bbd9;
+  margin: 0;
+}
+
+.topnav {
+  background-color: lightgrey;
+  overflow: hidden;
+  padding-right: 60px;
+}
+
+.topnav a:not(.split) {
+  background-color: ;
+  font-size: 23px;
+  float: right;
+  margin: 24px 0px 19px 50px;
+  font-family: Montserrat;
+}
+
+.topnav a:hover {
+  cursor: pointer;
+  text-decoration: underline solid black 1px;
+  font-size: ;
+}
+
+.topnav a.split {
+  background-color: ;
+  float: left;
+  margin: 23px 0px 19px 25px;
+}
+
+
+
+/*  font family
+    make nav bigger
+    font size on home and valo
+    colours
+    nav bar hover effects
+    
