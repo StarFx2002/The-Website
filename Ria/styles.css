@@ -1,39 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #a8bbd9;
-  margin: 0;
 }
 
-.topnav {
-  background-color: lightgrey;
-  overflow: hidden;
-  padding-right: 60px;
+nav {
+  height: 120px;
+  background-color: #979c9c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.topnav a:not(.split) {
+.logo {
+  width: 35%;
+  margin-left: 10px;
+}
+
+.notLogo {
+  width: 55%;
+  text-align: right;
+}
+
+.notLogo a {
   background-color: ;
-  font-size: 23px;
-  float: right;
-  margin: 24px 0px 19px 50px;
+  text-decoration: none;
+  font-size: 21px;
   font-family: Montserrat;
+  color: black;
+  position: relative;
+  margin: 24px 80px 19px 20px;
 }
 
-.topnav a:hover {
+.notLogo a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.2s linear;
+}
+
+.notLogo a:hover:before {
+  width: 100%;
+  background-color: purple;
   cursor: pointer;
-  text-decoration: underline solid black 1px;
-  font-size: ;
-}
-
-.topnav a.split {
-  background-color: ;
-  float: left;
-  margin: 23px 0px 19px 25px;
 }
 
 
 
-/*  font family
-    make nav bigger
+/*  make nav bigger
     font size on home and valo
     colours
-    nav bar hover effects
-    
+    nav bar hover
+
+
